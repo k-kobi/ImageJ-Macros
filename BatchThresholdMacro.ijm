@@ -14,8 +14,9 @@ resultsPath = destinationDir + "Results.csv";
 // Loop over image files
 for (i = 0; i < list.length; i++) {
     path = sourceDir + list[i];
+    lowerName = toLowerCase(list[i]);
 
-    if (endsWith(toLowerCase(list[i]), ".png")) {
+    if (endsWith(lowerName, ".png") || endsWith(lowerName, ".tif") || endsWith(lowerName, ".tiff")) {
         open(path);
         fileName = getTitle();
         selectWindow(fileName);
