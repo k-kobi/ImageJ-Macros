@@ -1,6 +1,6 @@
 # ImageJ Macros
 
-A collection of ImageJ/Fiji macros for batch fluorescence microscopy image processing, developed for undergraduate lab use.
+A collection of ImageJ/Fiji macros for batch fluorescence microscopy image processing, developed for the Forlano Lab. 
 
 ## Macros
 
