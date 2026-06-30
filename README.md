@@ -77,7 +77,7 @@ Raw channel TIFs
  RawToRGB.ijm  ──► Merged RGB PNGs (for visual inspection)
       │
       ▼
- (Manual tracing / segmentation)
+ (Subtract background / manual tracing / segmentation)
       │
       ▼
  TraceToROI.ijm  ──► .roi files + area CSV
